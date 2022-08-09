@@ -8,4 +8,16 @@ export class OrderEntity {
     id: Guid
     exception: string
     deadLine: TimeInterval<Number>
+
+    createOrder(){
+        return
+    }
+
+    cancelOrder(){
+        return
+    }
+
+    editOrder(){
+        return
+    }
 }
