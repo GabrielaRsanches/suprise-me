@@ -1,16 +1,29 @@
 import { Guid } from "guid-typescript"
-import { OrderEntity } from "./Order"
-import { EmailInterface } from "api/interfaces/emailInterface" 
+
+
+
+export type Ingredients = [{
+
+}]
 
 export class RecepiesEntity {
 
     id: Guid
     name: string
-    address: AddressInterface
-    email: EmailInterface
-    order: OrderEntity[]
-
+    ingredients: Ingredients[]
+    stepByStep: string
 
     
+    addRecipe(){
+
+    }
     
+    deleteRecipe(){
+        
+    }
+
+    updateRecipe(){
+
+    }
+
 }

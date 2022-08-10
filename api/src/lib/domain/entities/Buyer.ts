@@ -1,23 +1,19 @@
 import { Guid } from "guid-typescript";
-import { AddressEntity } from "./Address";
+import { AddressInterface } from "api/interfaces/addressInterface";
 import { EmailInterface } from "api/interfaces/emailInterface";
 import { OrderEntity } from "./Order";
 
 export class Buyer {
 
     id: Guid
-    address: AddressEntity[]
+    address: AddressInterface
     email: EmailInterface
     order: OrderEntity[]
     preferences: string
 
 
-    createAccount(){
-
-    }
-
     updateAccount(){
-
+        
     }
 
     deleteAccount(){
