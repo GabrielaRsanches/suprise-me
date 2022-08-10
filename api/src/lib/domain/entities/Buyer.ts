@@ -1,6 +1,6 @@
 import { Guid } from "guid-typescript";
 import { AddressEntity } from "./Address";
-import { EmailInterface } from "src/infrastructure/emailInterface";
+import { EmailInterface } from "api/interfaces/emailInterface";
 import { OrderEntity } from "./Order";
 
 export class Buyer {
@@ -9,6 +9,27 @@ export class Buyer {
     address: AddressEntity[]
     email: EmailInterface
     order: OrderEntity[]
+    preferences: string
 
+
+    createAccount(){
+
+    }
+
+    updateAccount(){
+
+    }
+
+    deleteAccount(){
+
+    }
+
+    listOfOrders(){
+
+    }
+
+    savePreferences(){
+
+    }
 
 }
