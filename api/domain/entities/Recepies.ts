@@ -6,7 +6,7 @@ export type Ingredients = [{
 
 }]
 
-export class RecepiesEntity {
+export class RecipesEntity {
 
     id: Guid
     name: string

@@ -1,5 +1,5 @@
 import { Guid } from "guid-typescript";
-import { paymentMethodEnum } from "api/src/services/paymentService";
+import { paymentMethodEnum } from "api/infra/services/paymentService";
 
 
 export class PaymentEntity {

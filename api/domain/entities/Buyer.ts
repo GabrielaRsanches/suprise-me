@@ -1,6 +1,6 @@
 import { Guid } from "guid-typescript";
-import { AddressInterface } from "api/interfaces/addressInterface";
-import { EmailInterface } from "api/interfaces/emailInterface";
+import { AddressInterface } from "api/domain/interfaces/addressInterface";
+import { EmailInterface } from "api/domain/interfaces/emailInterface";
 import { OrderEntity } from "./Order";
 
 export class Buyer {
@@ -13,7 +13,7 @@ export class Buyer {
 
 
     updateAccount(){
-        
+
     }
 
     deleteAccount(){
