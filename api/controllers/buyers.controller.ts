@@ -1,5 +1,5 @@
 import { Controller, Get, Post, Body, Patch, Param, Delete } from '@nestjs/common';
-import { BuyersService } from '../infra/services/buyers.service';
+import { BuyersService } from '../domain/services/buyers.service';
 import { CreateBuyerDto } from '../dto/create-buyer.dto';
 import { UpdateBuyerDto } from '../dto/update-buyer.dto';
 
